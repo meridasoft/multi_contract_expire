@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <record id="view_wizard_expire_contracts_multi_form" model="ir.ui.view">
+            <field name="name">wizard.expire.contracts.multi.form</field>
+            <field name="model">wizard.expire.contracts.multi</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Generar Bajas de Empleados">
+                    <group>
+                        <group attrs="{'invisible' : [('state', '!=', 'init')]}">
+                            <field name="date_end" required="1"/>
+                            <field name="expiration_reason" required="1"/>
+                            <field name="expired"/>
+                            <field name="state" invisible="1"/>
+                        </group>
+                        <group colspan="4" attrs="{'invisible' : [('state', '!=', 'init')]}">
+                            <separator string="Empleados por contrato" colspan="4"/>
+                            <field name="contract_ids" nolabel="1" domain="[('state', '=', 'open'),('employee_id', '!=', False)]">
+                                <tree string="Contratos de Empleados">
+                                    <field name="employee_id" readonly="1" options="{&quot;no_open&quot;:True}"/>
+                                    <field name="name" readonly="1"/>
+                                    <field name="date_start" readonly="1"/>
+                                    <field name="date_end" readonly="1"/>
+                                    <field name="state" readonly="1"/>
+                                </tree>
+                            </field>
+                        </group>
+
+                        <group colspan="4" attrs="{'invisible' : [('state', '!=', 'end')]}">
+                            <h3>Las bajas de Empleados han sido procesadas correctamente!</h3>
+                        </group>
+                    </group>
+                    <newline/>
+                    <footer>
+                        <button name="generate_expirations" class="oe_highlight" type="object" string="Aplicar" states="init"/>
+                        <button string="Cancelar" class="oe_link" special="cancel" states="init"/>
+                        <button string="Aceptar" class="oe_highlight" special="cancel" states="end"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_expire_contracts_multi" model="ir.actions.act_window">
+            <field name="name">Generar Bajas de Empleados</field>
+            <field name="res_model">wizard.expire.contracts.multi</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+            <field name="view_id" ref="view_wizard_expire_contracts_multi_form"/>
+        </record>
+
+    </data>
+</odoo>

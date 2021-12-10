@@ -1,0 +1,303 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* multi_contract_expire
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20210212\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 20:16+0000\n"
+"PO-Revision-Date: 2021-10-12 20:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__hr_contract__expiration_reason__5
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__expiration_reason__5
+msgid "Abandono de labores"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.view_wizard_expire_contracts_multi_form
+msgid "Aceptar"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.view_wizard_expire_contracts_multi_form
+msgid "Aplicar"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.hr_contract_expire_reason_form
+msgid "Baja"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.ui.menu,name:multi_contract_expire.menu_root_employees_expired
+msgid "Bajas"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.view_wizard_expire_contracts_multi_form
+msgid "Cancelar"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__hr_contract__expiration_reason__27
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__expiration_reason__27
+msgid "Conclusión de contrato"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__contract_id
+msgid "Contrato"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.history_expired_contract_search
+msgid "Contrato en proceso"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.history_expired_contract_search
+msgid "Contrato expirado"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__contract_ids
+msgid "Contratos"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.view_wizard_expire_contracts_multi_form
+msgid "Contratos de Empleados"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__create_uid
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__create_date
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: multi_contract_expire
+#: code:addons/multi_contract_expire/wizard/wizard_bajas_empleados.py:0
+#: code:addons/multi_contract_expire/wizard/wizard_expire_contracts.py:0
+#, python-format
+msgid "Debe seleccionar algún Contrato antes de generar una baja!"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__hr_contract__expiration_reason__4
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__expiration_reason__4
+msgid "Defunción"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__hr_contract__expiration_reason__12
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__expiration_reason__12
+msgid "Destitución e Inhabilitación"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__display_name
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__employee_id
+msgid "Empleado"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.history_expired_contract_search
+msgid "Empleado activo"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.history_expired_contract_search
+msgid "Empleado inactivo"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.view_wizard_expire_contracts_multi_form
+msgid "Empleados por contrato"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model,name:multi_contract_expire.model_hr_contract
+msgid "Employee Contract"
+msgstr "Contrato de Empleado"
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,help:multi_contract_expire.field_history_expired_contract__date_end
+msgid "End date of the contract (if it's a fixed-term contract)."
+msgstr "Fecha final del contrato."
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__state
+msgid "Estado"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__contract_state
+msgid "Estado Contrato"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__employee_state
+msgid "Estado Empleado"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__expired
+msgid "Expirado"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__date_end
+msgid "Fecha Final"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__date_start
+msgid "Fecha Inicio"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__date_end
+msgid "Fecha de baja"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__state__end
+msgid "Finalizado"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.actions.act_window,name:multi_contract_expire.action_expire_contracts_multi
+#: model:ir.ui.menu,name:multi_contract_expire.sub_menu_bajas
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.view_wizard_expire_contracts_multi_form
+msgid "Generar Bajas de Empleados"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.actions.act_window,name:multi_contract_expire.history_expired_contract_action
+#: model:ir.ui.menu,name:multi_contract_expire.sub_menu_historial_bajas
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.history_expired_contract_search
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.history_expired_contract_tree
+msgid "Historial de bajas de Empleados"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__id
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__id
+msgid "ID"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,help:multi_contract_expire.field_history_expired_contract__employee_state
+msgid ""
+"If the active field is set to False, it will allow you to hide the resource "
+"record without removing it."
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__hr_contract__expiration_reason__6
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__expiration_reason__6
+msgid "Incapacidad total o permanente"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__hr_contract__expiration_reason__11
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__expiration_reason__11
+msgid "Inhabilitación"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__state__init
+msgid "Inicio"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model_terms:ir.ui.view,arch_db:multi_contract_expire.view_wizard_expire_contracts_multi_form
+msgid "Las bajas de Empleados han sido procesadas correctamente!"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract____last_update
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__write_uid
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__write_date
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__hr_contract__expiration_reason__33
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__expiration_reason__33
+msgid "Licencia sin goce de sueldo"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__hr_contract__expiration_reason__29
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__expiration_reason__29
+msgid "Liquidación"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,help:multi_contract_expire.field_wizard_expire_contracts_multi__expired
+msgid "Marca el Contrato como expirado/Set Contract state to expired."
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,field_description:multi_contract_expire.field_history_expired_contract__expiration_reason
+#: model:ir.model.fields,field_description:multi_contract_expire.field_hr_contract__expiration_reason
+#: model:ir.model.fields,field_description:multi_contract_expire.field_wizard_expire_contracts_multi__expiration_reason
+msgid "Motivo de baja"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__hr_contract__expiration_reason__1
+#: model:ir.model.fields.selection,name:multi_contract_expire.selection__wizard_expire_contracts_multi__expiration_reason__1
+msgid "Renuncia"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,help:multi_contract_expire.field_history_expired_contract__date_start
+msgid "Start date of the contract."
+msgstr "Fecha de inicio del contrato."
+
+#. module: multi_contract_expire
+#: model:ir.model.fields,help:multi_contract_expire.field_history_expired_contract__contract_state
+msgid "Status of the contract"
+msgstr "Estado del contrato"
+
+#. module: multi_contract_expire
+#: model:ir.model,name:multi_contract_expire.model_history_expired_contract
+msgid "history.expired.contract"
+msgstr ""
+
+#. module: multi_contract_expire
+#: model:ir.model,name:multi_contract_expire.model_wizard_expire_contracts_multi
+msgid "wizard.expire.contracts.multi"
+msgstr ""
