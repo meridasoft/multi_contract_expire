@@ -20,6 +20,8 @@
         'wizard/wizard_expire_contracts_view.xml',
         'views/menus.xml',
     ],
+    'images': ['static/description/history.png',
+               ],
     'installable': True,
     'application': False,
     'auto_install': False,
